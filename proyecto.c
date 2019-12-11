@@ -2851,7 +2851,7 @@ void desplegarporEspecialidad(GtkWidget* button, gpointer data){
 void help(GtkWidget* item, gpointer data){
   printf("Hello \n");
   GError* error = NULL;
-  gtk_show_uri(gdk_screen_get_default(), "https://github.com/CesarArellano/Sistema-Integral-de-Informacion-Clinica/master/manual/Man.pdf",GDK_CURRENT_TIME, &error);
+  gtk_show_uri(gdk_screen_get_default(), "https://github.com/CesarArellano/Sistema-Integral-de-Informacion-Clinica/blob/master/manual/Man.pdf",GDK_CURRENT_TIME, &error);
 }
 
 /*
